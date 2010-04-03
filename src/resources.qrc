@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images" >
+        <file alias="icon" >images/icon.png</file>
+        <file alias="load" >images/load.png</file>
+        <file alias="quit" >images/quit.png</file>
+        <file alias="qtlogo" >images/qtlogo.png</file>
+        <file alias="help" >images/help.png</file>
+        <file alias="queue" >images/queue.png</file>
+        <file alias="clear" >images/clear.png</file>
+        <file alias="save" >images/save.png</file>
+        <file alias="settings" >images/settings.png</file>
+        <file alias="web" >images/web.png</file>
+        <file alias="saveAlt" >images/saveAlt.png</file>
+        <file alias="google" >images/google.png</file>
+        <file alias="network" >images/network.png</file>
+        <file alias="reminder" >images/reminder.png</file>
+        <file alias="face-sad" >images/face-sad.png</file>
+    </qresource>
+</RCC>

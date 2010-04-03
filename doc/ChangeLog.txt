@@ -1,0 +1,70 @@
+(upcoming) Version 0.3:
+TODO:
+# bugfix: user selection in the list gets lost during an update which could lead to wrong entries in the queue
+# bugfix: unicode mostly sucks because it's splitted and can't be rejoined at the moment
+# bugfix: program can't be closed while it's updating
+# update: include a "remove from the list" button in the queue
+# bugfix: isohunt.com sometimes comes up with wrong stuff (e.g. 10 things i hate ... => greys anatomy)
+# update: add torrentz.com; seems to be a good site with verified results
+# update: activate/deactivate google-calendar stuff, choose which calendar should be used, how many days before the air-date should a calendar entry be created?
+# update: prevent trying to search for a torrent for an episode which hasn't aired
+DONE:
+# update: detailsView displays further episode details (summary, cast, trivia, ..)
+# update: create a direct link to the tv.com article
+# update: integrate google calendar
+# update: autoLoader days should be configurable in the settings
+# update: the current 3 autoLoader torrent-sites should be checkable in the settings
+# update: implement http://isohunt.com/ because it's also very up-to-date
+# update: autoLoader should search for Good() when torrent hasn't been verified
+# bugfix: showsToday prints stuff which comes from the rememberView icons -> icons are not printed now
+# update: autoLoader uses btjunkie now and checks torrents for community-validation
+# update: work on the settings UI (use tabs!)
+# update: add a checkbox in the settings which sets an autostart of the program under Linux & Windows
+# bugfix: resize of showView doesn't work perfect under different window-managers (workaround in rememberview.cpp)
+# update: added an autostart option in the settings-dialog
+# update: add toolTips to the icons in showView
+# bugfix: showview give a wrong minimumSizeHint if no icons are used => now minimumSizeHint check icons for validity
+# update: include "serienjunkies.org" as alternative to the torrent-search for rapidshare loaders
+# update: create an auto-torrent-downloader which loads the torrent and opens it with the system-standard-program (http://www.fulldls.com/ is up-to-date)
+# update: parse the "next" and "previous" episodes of top-tv-shows
+# update: improve the shown info with air-location, genre, and probably similar shows
+# update: search for alternative images if they don't exist on the next-episodes.net site
+# update: implement an information-loader which gathers show-summaries from the web (files, offline!)
+# update: read the "top-tv-shows" to populate the list with popular shows which aren't played currently (e.g.: simpsons in summer)
+# update: implement an image-loader and show a image of the selected show in the details-tab
+# update: the UI includes now a new button to download a .torrent-file and a button which leads the user to a website with more info about the show (e.g. tv.com)
+# update: removed the seconds-spinBox in the settings (who needed it anyways?)
+# update: the name of the episode is shown in a tool tip
+# update: the parser tries to make characters uppercase after some special characters (e.g. space)
+# update: the reminder-list gets cleared every day => like a daily restart
+
+Version 0.22
+# update: first release of a 64bit binary for Linux
+# update: closing from the sysTray closes the program for shure (even when the mainWindow isn't hidden)
+            (it was only minimized when the mainWindow wasn't hidden before)
+# update: the reminder got 2 extra functions (choosable from settings-dialog):
+            1) SysTrayMessage: remind the user as long (every update!) until he clicks the message
+            2) ReminderWidget: because the trayMessages could be prohibited an extra widget is created
+# update: In my opinion the captions looked ugly. removed most of them (queue didn't even had one..)
+# update: grouped all the options in the settings-dialog (e.g. proxy was grouped already)
+# bugfix: The first "parse" command blocked the constructor; fixed it with a timer
+            (this was necessary to make the closing-stuff work!)
+
+Version 0.21
+# update: queue adjust its size to showView's size
+# update: added a Portuguese (Brazil) translation from Márcio Moraes
+
+Version 0.2
+# bugfix: updater was locked forever if a network-error occured
+# update: added a link to "next-episode.net" in the About-dialog because we get our data from there
+# update: made the translation-handling (plural-forms + default-translation) more effective
+# update: sort shows on rememberview- & showstoday-dialog alphabetically
+# update: added a gradient to showview
+# update: added a version-checking-functionality
+# update: got rid of the locking-functuality with an improvement to the downloader
+# update: showstoday looks now like rememberview/showview
+# update: add a widget to select a date to showsToday to browse through the upcoming shows
+# update: added a date-reset-button
+
+Version 0.1
+# first release which is able to perform the basic-things
